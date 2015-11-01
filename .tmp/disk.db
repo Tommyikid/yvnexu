@@ -1,0 +1,76 @@
+{
+  "data": {
+    "birthday": [],
+    "user": []
+  },
+  "schema": {
+    "birthday": {
+      "nev": {
+        "type": "string"
+      },
+      "datum": {
+        "type": "date"
+      },
+      "user": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "user"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "neptun": {
+        "type": "string",
+        "unique": true
+      },
+      "password": {
+        "type": "string"
+      },
+      "surname": {
+        "type": "string"
+      },
+      "forename": {
+        "type": "string"
+      },
+      "avatar": {
+        "type": "string"
+      },
+      "role": {
+        "type": "string",
+        "enum": [
+          "riporter",
+          "operator"
+        ],
+        "defaultsTo": "riporter"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "birthday": {},
+    "user": {}
+  }
+}

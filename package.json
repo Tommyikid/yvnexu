@@ -1,0 +1,19 @@
+{
+  "name": "yvnexu",
+  "version": "1.0.0",
+  "description": "Beadandó - Ladányi Tamás",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tommyikid/yvnexu.git"
+  },
+  "author": "Ladányi Tamás",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tommyikid/yvnexu/issues"
+  },
+  "homepage": "https://github.com/Tommyikid/yvnexu#readme"
+}
